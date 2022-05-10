@@ -1,0 +1,1 @@
+São geralmente recuperados a partir de um objetoo

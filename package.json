@@ -1,0 +1,30 @@
+{
+  "name": "lib_link",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bugs": {
+    "url" : "it@github.com:Julio-Freitas/lib_link.git",
+    "email" : "julio.clf31@gmail.com"
+  },
+  "scripts": {
+    "cli": "node ./lib/cli.js ./files/text1.md",
+    "test": "jest ./tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2", 
+    "node-fetch": "^2.6.1"
+  },
+
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "jest": "^28.1.0",
+    "node-fetch": "^2.6.1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "lib_link": "./lib/cli.js"
+  }
+}
